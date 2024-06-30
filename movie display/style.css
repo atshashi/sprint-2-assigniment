@@ -1,0 +1,12 @@
+/* styles.css */
+.slideshow-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+img {
+    width: 600px;
+    display: block;
+}
