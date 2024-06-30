@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Management Application</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        #task-form {
+            margin-bottom: 20px;
+        }
+        .task {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            border: 1px solid #ccc;
+            margin-bottom: 10px;
+        }
+        .completed {
+            text-decoration: line-through;
+            color: grey;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Task Management Application / TODO List</h1>
+
+    <form id="task-form">
+        <input type="text" id="title" placeholder="Title" required>
+        <input type="text" id="description" placeholder="Description" required>
+        <select id="status">
+            <option value="incomplete">Incomplete</option>
+            <option value="complete">Complete</option>
+        </select>
+        <button type="submit">Add Task</button>
+    </form>
+
+    <div>
+        <button id="filter-all">All</button>
+        <button id="filter-incomplete">Incomplete</button>
+        <button id="filter-complete">Complete</button>
+    </div>
+
+    <div id="tasks"></div>
+
+    <script src="app.js"></script>
+</body>
+<script src="script.js"></script>
+</html>
