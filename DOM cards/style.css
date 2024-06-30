@@ -1,0 +1,49 @@
+
+body{
+    margin:20px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#outer{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+
+}
+h1{
+    font-size: 20px;
+}
+
+.cardid{
+    width: 300px;
+    height: 600px;
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+}
+
+img{
+    width: 85%;
+    height: 70%;
+    border-radius: 10px;
+}
+
+
+
+.price{
+    font-size: 20px;
+}
+
+.description{
+    font-size: 12px;
+}
